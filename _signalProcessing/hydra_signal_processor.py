@@ -57,7 +57,7 @@ from pyargus import directionEstimation as de
 from pyapril import channelPreparation as cp
 from pyapril import clutterCancellation as cc
 from pyapril import detector as det
-from pyapril.hitProcessor import CA_CFAR
+from pyapril import caCfar
 
 class SignalProcessor(QtCore.QThread):
 

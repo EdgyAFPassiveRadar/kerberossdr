@@ -49,6 +49,7 @@ from hydra_receiver import ReceiverRTLSDR
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QApplication, QMainWindow
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
