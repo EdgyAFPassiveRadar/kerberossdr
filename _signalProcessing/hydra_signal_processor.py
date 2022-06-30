@@ -34,7 +34,9 @@ from scipy.signal import correlate
 #import matplotlib.pyplot as plt
 
 # GUI support
-from PyQt4 import QtGui, QtCore
+from PyQt5 import QtGui, QtCore
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 
 # Import the pyArgus module
 #root_path = os.getcwd()
@@ -55,7 +57,7 @@ from pyargus import directionEstimation as de
 from pyapril import channelPreparation as cp
 from pyapril import clutterCancellation as cc
 from pyapril import detector as det
-from pyapril.hitProcessor import CA_CFAR
+from pyapril import caCfar
 
 class SignalProcessor(QtCore.QThread):
 
